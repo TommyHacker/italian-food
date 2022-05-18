@@ -11,14 +11,16 @@
 			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="./style.css">
 		<title>Pizza</title>
 	</head>
 	<body>
 
-		<div class="mastbackground" style="background-image: url('https://media.istockphoto.com/photos/pepperoni-pizza-on-wooden-table-picture-id1301482898?b=1&k=20&m=1301482898&s=170667a&w=0&h=XLgT9kG_7_n02S-YzOY71EzcGgqBnY-GukEfhjOui64='); "></div>
-			<div class="color-overlay d-flex justify-content-center align-items-center"></div>
-			<div class="container fixed top">
+		<div class="mastbackground" style="background-image: url('https://media.istockphoto.com/photos/pepperoni-pizza-on-wooden-table-picture-id1301482898?b=1&k=20&m=1301482898&s=170667a&w=0&h=XLgT9kG_7_n02S-YzOY71EzcGgqBnY-GukEfhjOui64='); ">
+	
+	</div>
+			
+			<div class="container fixed-top">
 
 			<ul
 			class="rounded nav text-bg-dark shadow py-2 row row-cols-3 text-center"
@@ -31,17 +33,23 @@
 					class="nav-link active text-light"
 					aria-current="page"
 					href="./location.html"
-					>Location</a
-				>
+					>Location</a>
 				<li class="nav-item">
 					<a class="nav-link text-light" href="./booking.html">Booking</a>
 				</li>
 			</li>
 		</ul>
-		</div>
+		
+	</div>
+	<div id="alert-message" class="alert alert-warning" role="alert">
+		We noticed you are using a destop. Our website looks bad on those so please use a smaller mobile device!
+	  </div>
+	  <div id="alert-message" class="alert alert-warning" role="alert">
+		  Nevermind, media query breakpoints have been added with the help of bootstrap!
+	  </div>
 		<div class="container" style="margin-top:6rem;">
 			<div class="row row-cols-3">
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-6 col-lg-4">
 					<div class="card text-center my-4" style="min-height: 800px">
 						<img
 							src="https://cdn.pixabay.com/photo/2015/09/16/20/10/dough-943245_960_720.jpg"
@@ -66,7 +74,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-6 col-lg-4">
 					<div class="card text-center my-4" style="min-height: 800px">
 						<img
 							src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/375px-Lasagne_-_stonesoup.jpg"
@@ -90,7 +98,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-6 col-lg-4">
 					<div class="card text-center my-4" style="min-height: 800px">
 						<img
 							src="https://scontent.flhr1-1.fna.fbcdn.net/v/t39.30808-6/276213196_10151649060114957_7678373749080543338_n.jpg?_nc_cat=105&ccb=1-6&_nc_sid=730e14&_nc_ohc=oWO7EEc9YJQAX8_t0UV&_nc_ht=scontent.flhr1-1.fna&oh=00_AT97AWA5vC8C4wiU6PBLVNtTWMzW1lH2E9xTz2r04V_f8w&oe=628A9027"

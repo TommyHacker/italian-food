@@ -1,11 +1,33 @@
 .mastbackground {
-    background-size: cover;
-    min-height: 60vh;
-    position: relative;
+	background-size: cover;
+	min-height: 60vh;
+	position: relative;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	.mastbackground {
+		min-height: 30vh;
+	}
 }
 
-@media only screen and (max-width: 768px) {
-    .mastbackground {
-        min-height: 30vh
-    }
+.banner-container {
+	width: 100vw;
+	height: 500px;
+	overflow: hidden;
+}
+.secret-text {
+	font-size: 8pt;
+	margin: 20px auto;
+}
+
+#alert-message {
+	display: none;
+}
+
+@media only screen and (min-width: 1100px) {
+	#alert-message {
+		display: block;
+	}
 }
