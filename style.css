@@ -1,0 +1,11 @@
+.mastbackground {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .mastbackground {
+        min-height: 30vh
+    }
+}
